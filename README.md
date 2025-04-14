@@ -4,3 +4,5 @@
 ### Website for Cloud Infrastructure Solutions Development
 
 ### Stratum Application will be deployed on this Repository.
+
+### This Repository will showcase a robust CI/CD Pipeline, fully Automated, Secure and Scalable.
