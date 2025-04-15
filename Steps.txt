@@ -1,0 +1,7 @@
+# STEPS 
+
+### 1) SetUp Jenkins & Integrate all DevOps Tools/Plugins.
+### 2) Create a SonarQube Server - to scan the Project Code.
+### 3) SetUp EKS Cluster with 3 Nodes - Deploy Application with Jenkins Pipeline.
+    - One Master Node & Two Worker Nodes.
+### 4) Create a Monitoring Server - Prometheus & Grafana.
