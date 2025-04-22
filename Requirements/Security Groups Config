@@ -5,4 +5,5 @@
 - SMTPS   : 465 (Emails)
 - Custom  : 8080 (Jenkins)
 - Custom  : 3000 (Startum-Foods)
-- Custom  : 587 (SonarQube)
+- Custom  : 587 (Custom)
+
