@@ -11,5 +11,7 @@
 2) Scripts 
   - Scripts to run plugins for Pipeline.
   - Change the permissions to enable scripts
-  - 
+    - cat into permissions bash file
+    - ```chmod +x *.sh``` (Makes files executable)
+
 3)
