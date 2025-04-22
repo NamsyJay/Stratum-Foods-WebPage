@@ -1,0 +1,8 @@
+### Security Group Configurations For Project
+- SSH     : 22 (SSH Server)
+- HTTP    : 80 (WebServer Access)
+- HTTPS   : 443 (SSL Secure)
+- SMTPS   : 465 (Emails)
+- Custom  : 8080 (Jenkins)
+- Custom  : 3000 (Startum-Foods)
+- Custom  : 587 (SonarQube)
