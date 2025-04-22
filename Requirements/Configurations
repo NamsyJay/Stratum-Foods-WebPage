@@ -2,5 +2,14 @@
 1) Clone The Repository.
   - Remove the remote origin.
     - "git remote remove origin" 
-2)
+    - Create a new repository in GitHub
+      - Initialise Git.
+      - Make the first commit.
+      - Git remote add.
+      - Git push to remote branch.
+  
+2) Scripts 
+  - Scripts to run plugins for Pipeline.
+  - Change the permissions to enable scripts
+  - 
 3)
