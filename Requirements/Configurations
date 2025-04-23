@@ -24,4 +24,10 @@
   - Configure Email Notification
     - Create an app pasword in gmail.
     - Configure SMTP server (`smtp.gmail.com`), Default user e-mail suffix (`@gmail.com`), password - app password.
-    - Include SMTP port access - `587`.
+    - Include SMTP port access - `587`. 
+    - Select TSL before test configuration.
+  - Configure Extended E-Mail Notification
+    - SMTP server (`smtp.gmail.com`), SMTP port (`465`)
+    - username with password option for email credentials.
+    - Credentials :- login email with app password, description smpt-gmail.
+    - 
