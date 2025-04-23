@@ -13,5 +13,15 @@
   - Change the permissions to enable scripts
     - cat into permissions bash file
     - ```chmod +x *.sh``` (Makes files executable)
-
-3)
+  - Executing Scripts
+    - sh "name of scripts".
+      - Jenkins, then docker, trivy scan, terraform
+      - awscli (This will enable communication with AWS Cloud and its services).
+      - kubectl, eksctl.
+3) Jenkins CI
+  - Manage Jenkins PLugins
+    - Eclipse, Stageview, Node JS, Docker(Docker Commons, Pipeline, API, Build Step)
+  - Configure Email Notification
+    - Create an app pasword in gmail.
+    - Configure SMTP server (`smtp.gmail.com`), Default user e-mail suffix (`@gmail.com`), password - app password.
+    - Include SMTP port access - `587`.
