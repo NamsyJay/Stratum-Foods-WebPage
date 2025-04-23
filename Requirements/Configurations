@@ -18,22 +18,24 @@
       - Jenkins, then docker, trivy scan, terraform
       - awscli (This will enable communication with AWS Cloud and its services).
       - kubectl, eksctl.
-3) Jenkins CI
+3) Jenkins CI PIPELINE
   - Manage Jenkins PLugins
     - Eclipse, Stageview, Node JS, Docker(Docker Commons, Pipeline, API, Build Step)
-  - Configure Email Notification
+  - Configure Email Notifications.
     - Create an app pasword in gmail.
     - Configure SMTP server (`smtp.gmail.com`), Default user e-mail suffix (`@gmail.com`), password - app password.
     - Include SMTP port access - `587`. 
     - Select TSL before test configuration.
-  - Configure Extended E-Mail Notification
+  - Configure Extended E-Mail Notification.
     - SMTP server (`smtp.gmail.com`), SMTP port (`465`)
     - username with password option for email credentials.
     - Credentials :- login email with app password, description smpt-gmail.
-  - Configure Runtime Environment
+  - Configure Runtime Environment.
     - jdk and nodejs versions.
   - Configure Docker.
     - Go to Credentials, System and docker credentials.
-  - Configure SonarQube
-    -
-    -
+  - Configure SonarQube Server.
+    - Get Docker scripts from file and create a sh script file.
+    - Change the permissions for the `docker.sh` file.
+      - chmod +x docker.sh
+    - Enable port 9000 in the inbound rule on the Sonar Server.
