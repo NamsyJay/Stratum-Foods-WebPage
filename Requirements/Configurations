@@ -30,4 +30,10 @@
     - SMTP server (`smtp.gmail.com`), SMTP port (`465`)
     - username with password option for email credentials.
     - Credentials :- login email with app password, description smpt-gmail.
-    - 
+  - Configure Runtime Environment
+    - jdk and nodejs versions.
+  - Configure Docker.
+    - Go to Credentials, System and docker credentials.
+  - Configure SonarQube
+    -
+    -
