@@ -46,5 +46,10 @@
     - Configure SonarQube in System settings, enter the right credentials.  
 
 4)  IAM User Credentials in AWS.
-    - Grant EC2, IAM, CloudFormation, VPC Access. 
+    - Create a user and attach policies.
+    - Grant EC2, IAM, CloudFormation, VPC Access.
+
+5)  Create EKS Cluster
+    -
+    -  
     -
