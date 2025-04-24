@@ -8,7 +8,7 @@
       - Git remote add.
       - Git push to remote branch.
   
-2) Scripts 
+2) Scripts.
   - Scripts to run plugins for Pipeline.
   - Change the permissions to enable scripts
     - cat into permissions bash file
@@ -18,9 +18,10 @@
       - Jenkins, then docker, trivy scan, terraform
       - awscli (This will enable communication with AWS Cloud and its services).
       - kubectl, eksctl.
-3) Jenkins CI PIPELINE
+
+3) Jenkins CI PIPELINE.
   - Manage Jenkins PLugins
-    - Eclipse, Stageview, Node JS, Docker(Docker Commons, Pipeline, API, Build Step)
+    - Eclipse, SonarQube, Stageview, Node JS, Docker(Docker Commons, Pipeline, API, Build Step)
   - Configure Email Notifications.
     - Create an app pasword in gmail.
     - Configure SMTP server (`smtp.gmail.com`), Default user e-mail suffix (`@gmail.com`), password - app password.
@@ -42,5 +43,8 @@
     - Login into SonarQube,create jenkins token in account and security.
     - Head to Jenkins and Add SonarQube (jenkins token) credentials.
     - Create webhooks in SonarQube and add jenkins url with "sonarqube-webhook".
-    -
+    - Configure SonarQube in System settings, enter the right credentials.  
+
+4)  IAM User Credentials in AWS.
+    - Grant EC2, IAM, CloudFormation, VPC Access. 
     -
