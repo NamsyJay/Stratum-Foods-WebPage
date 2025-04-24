@@ -39,3 +39,8 @@
     - Change the permissions for the `docker.sh` file.
       - chmod +x docker.sh
     - Enable port 9000 in the inbound rule on the Sonar Server.
+    - Login into SonarQube,create jenkins token in account and security.
+    - Head to Jenkins and Add SonarQube (jenkins token) credentials.
+    - Create webhooks in SonarQube and add jenkins url with "sonarqube-webhook".
+    -
+    -
