@@ -44,6 +44,7 @@
     - Head to Jenkins and Add SonarQube (jenkins token) credentials.
     - Create webhooks in SonarQube and add jenkins url with "sonarqube-webhook".
     - Configure SonarQube in System settings, enter the right credentials.  
+    - Congigure SonarQube in Tools, supplying the appropriate sonar version.
 
 4)  IAM User Credentials in AWS.
     - Create a user and attach policies.
