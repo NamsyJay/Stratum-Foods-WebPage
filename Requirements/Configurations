@@ -56,9 +56,11 @@
 6) Build Jenkins Job 
     - Create Pipeline, Discard Old Builds - "3".
     - Then Start Pipeline Build Officially.  
-      I) Set Git Credentials in Pipeline, create global credentials (git-token) and include git repo.
-      II) 
-      III) 
-      IV) 
-      V) 
-    - 
+      - Set Git Credentials in Pipeline, create global credentials (git-token) and include git repo.
+    - Enable OIDC -Provider.
+      - create a using CLI.
+      - it setup OIDC ro authenticate K8s services with IAM roles; Without this, servies will unable to access AWS resources securely.
+
+7)
+
+8)
