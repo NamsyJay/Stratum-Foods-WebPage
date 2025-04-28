@@ -60,7 +60,10 @@
     - Enable OIDC -Provider.
       - create a using CLI.
       - it setup OIDC ro authenticate K8s services with IAM roles; Without this, servies will unable to access AWS resources securely.
-
+    - Create Node Group
+      - use CLI.
+      - 
+    ** While that takes place, Build Jenkins Pipeline.
 7)
 
 8)
