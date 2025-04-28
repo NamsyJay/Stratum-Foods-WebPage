@@ -50,6 +50,6 @@
     - Grant EC2, IAM, CloudFormation, VPC Access.
 
 5)  Create EKS Cluster
-    -
+    - Create a policy that allows access to EKS Cluster.
     -  
     -
