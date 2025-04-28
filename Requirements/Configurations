@@ -56,7 +56,9 @@
 6) Build Jenkins Job 
     - Create Pipeline, Discard Old Builds - "3".
     - Then Start Pipeline Build Officially.  
-      - 
-      - 
-      - 
+      I) Set Git Credentials in Pipeline, create global credentials (git-token) and include git repo.
+      II) 
+      III) 
+      IV) 
+      V) 
     - 
