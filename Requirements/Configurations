@@ -51,5 +51,12 @@
 
 5)  Create EKS Cluster
     - Create a policy that allows access to EKS Cluster.
-    -  
-    -
+    - Once it is setup, view cluster `aws eks list-clusters`
+
+6) Build Jenkins Job 
+    - Create Pipeline, Discard Old Builds - "3".
+    - Then Start Pipeline Build Officially.  
+      - 
+      - 
+      - 
+    - 
