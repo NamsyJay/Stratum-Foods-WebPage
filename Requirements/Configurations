@@ -49,6 +49,8 @@
 4)  IAM User Credentials in AWS.
     - Create a user and attach policies.
     - Grant EC2, IAM, CloudFormation, VPC Access.
+    - Add Policies:
+      - AmazonEKSWorkerNodePolicy, AmazonEC2ContainerRegistryReadOnly.
 
 5)  Create EKS Cluster
     - Create a policy that allows access to EKS Cluster.
@@ -60,11 +62,21 @@
       - Set Git Credentials in Pipeline, create global credentials (git-token) and include git repo.
     - Enable OIDC -Provider.
       - create a using CLI.
-      - it setup OIDC ro authenticate K8s services with IAM roles; Without this, servies will unable to access AWS resources securely.
+      - Setup OIDC to authenticate K8s services with IAM roles; Without this, servies will unable to access AWS resources securely.
     - Create Node Group
       - use CLI.
-      - 
     ** While that takes place, Build Jenkins Pipeline.
-7)
 
-8)
+7) Update The AWS Auth ConfigMap
+    - Connect to the cluster using the CLI.
+      - `aws eks update-kubeconfig --region --name` 
+    - Check nodes.
+    - Switch to Jenkins user and verify AWS credentials. 
+
+8) Deploy EKS Clusters
+    - The Source Code resides in the manifest.yml file.
+    - Edit Jenkins Pipeline.
+    - 
+    -
+
+9)
