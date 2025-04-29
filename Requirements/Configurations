@@ -76,7 +76,9 @@
 8) Deploy EKS Clusters
     - The Source Code resides in the manifest.yml file.
     - Edit Jenkins Pipeline.
-    - 
-    -
+    - Include the 'Deploy To EKS Cluster' stage in the Groovy Script, replacing the line 62 stage.
+    - Re-run the Jenkins Build Job. 
+    - Update the content in the Kubernetes yml file.
+    - View the Docker file once it is completed.
 
 9)
