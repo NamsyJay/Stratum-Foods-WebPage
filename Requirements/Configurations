@@ -71,7 +71,7 @@
     - Connect to the cluster using the CLI.
       - `aws eks update-kubeconfig --region --name` 
     - Check nodes.
-    - Switch to Jenkins user and verify AWS credentials. 
+    - Switch to Jenkins root user and verify AWS credentials. 
 
 8) Deploy EKS Clusters
     - The Source Code resides in the manifest.yml file.
