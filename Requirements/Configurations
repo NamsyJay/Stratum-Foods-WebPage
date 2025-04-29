@@ -82,5 +82,13 @@
     - View the Docker file once it is completed.
     - `kubectl get all` displays the pods.
 
+9) Domain Mapping
+    - View the site via the LoadBalance URL (get it from the Terminal).
+    - I will use "Hostinger"; 
+    - Login into Hostinger, Select Domain and manage.
+      - Select DNS/Nameservers, 
+      - Name `app`, inlude the load balancer URL, TTL - 14,400 (4 Hours)
+        - TTL:- This tells DNS servers how long long to cache a record before checking backwith the authoritative DNS server for updates.
+        - A lower TTL can be effective when making cahnges quickly; Then a higer value can be restored once it has been propogated. 
 
-9) 
+10)
