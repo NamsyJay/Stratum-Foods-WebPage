@@ -94,8 +94,8 @@
 
 10) Monitoring & Observability
     - Create a Seperate Pipeline for Monitoring.
-    -
-    -
-    -
-    -
-    -
+    - Include the `AWS Access Key ID & Secret Access Key` in Jenkins Credentials.
+    - Update the key name in the Terraform File
+    - Above the Monitoring Pipeline, Select `This Project is parameterised`.
+      - name `action`, choices `apply, destroy`
+      - Then Build with Parameters
