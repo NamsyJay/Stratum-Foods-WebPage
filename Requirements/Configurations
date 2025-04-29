@@ -99,3 +99,4 @@
     - Above the Monitoring Pipeline, Select `This Project is parameterised`.
       - name `action`, choices `apply, destroy`
       - Then Build with Parameters
+      ** Encountered An Error ** Adjusted the AMI ID to specific region.
