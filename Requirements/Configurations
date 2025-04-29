@@ -90,5 +90,12 @@
       - Name `app`, inlude the load balancer URL, TTL - 14,400 (4 Hours)
         - TTL:- This tells DNS servers how long long to cache a record before checking backwith the authoritative DNS server for updates.
         - A lower TTL can be effective when making cahnges quickly; Then a higer value can be restored once it has been propogated. 
+    - `app{domain-name}` in the URL will show the website.
 
-10)
+10) Monitoring & Observability
+    - Create a Seperate Pipeline for Monitoring.
+    -
+    -
+    -
+    -
+    -
