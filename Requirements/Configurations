@@ -80,5 +80,7 @@
     - Re-run the Jenkins Build Job. 
     - Update the content in the Kubernetes yml file.
     - View the Docker file once it is completed.
+    - `kubectl get all` displays the pods.
 
-9)
+
+9) 
