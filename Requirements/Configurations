@@ -107,3 +107,10 @@
     - use `netstat` to check the network configurations. 
     - open ports 3000 (Grafana) and 9090 (Prometheus) in the security Group.
     - install blackbox exported; The blackbox exporter allows blackbox probing of endpoints over HTTP, HTTPS, DNS, TCP, ICMP and gRPC.
+
+11) Destroying All Resources
+    - eksctl delete nodegroup --cluster=StarbucksYork --name=node2 --region=eu-west-2 --wait
+
+    - eksctl utils disassociate-iam-oidc-provider --cluster=StarbucksYork --region=eu-west-2
+    
+    - eksctl delete cluster --name=StarbucksYork --region=eu-west-2 --wait
