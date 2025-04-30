@@ -100,3 +100,10 @@
       - name `action`, choices `apply, destroy`
       - Then Build with Parameters
       ** Encountered An Error ** Adjusted the AMI ID to specific region.
+     create the grafana.sh and prometheus.sh 
+    - change the permissions on both scripts `chmod +x`
+    - then run the scripts.
+    - verify the packages have been installed.
+    - use `netstat` to check the network configurations. 
+    - open ports 3000 (Grafana) and 9090 (Prometheus) in the security Group.
+    - install blackbox exported; The blackbox exporter allows blackbox probing of endpoints over HTTP, HTTPS, DNS, TCP, ICMP and gRPC.
