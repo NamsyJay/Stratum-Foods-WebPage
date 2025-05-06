@@ -62,7 +62,7 @@
       - Set Git Credentials in Pipeline, create global credentials (git-token) and include git repo.
     - Enable OIDC -Provider.
       - create a using CLI.
-      - Setup OIDC to authenticate K8s services with IAM roles; Without this, servies will unable to access AWS resources securely.
+      - Setup OIDC to authenticate K8s services with IAM roles; Without this, services will be unable to access AWS resources securely.
     - Create Node Group
       - use CLI.
     ** While that takes place, Build Jenkins Pipeline.
@@ -76,7 +76,7 @@
 8) Deploy EKS Clusters
     - The Source Code resides in the manifest.yml file.
     - Edit Jenkins Pipeline.
-    - Include the 'Deploy To EKS Cluster' stage in the Groovy Script, replacing the line 62 stage.
+    - Include the 'Deploy To EKS Cluster' stage in the Groovy Script, replacing the line 62 stage(Deploy To Docker Container Stage)
     - Re-run the Jenkins Build Job. 
     - Update the content in the Kubernetes yml file.
     - View the Docker file once it is completed.
